@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>App Academy HTML/CSS Assessment</title>
+  <link href="C:\Users\cdp85\Desktop\HTML Projects\CSSASS" rel="stylesheet">
+</head>
+
+<body>
+  <form action="/pets" method="post">
+    <fieldset>
+      <div>
+        <label for="name">Name</label>
+        <input type="text" id="name" name="pet_name"><br>
+      </div>
+
+      <div>
+      <label for="type">Type</label>
+      <select id="type" name="pet_type">
+        <option value="Cat">Cat</option>
+        <option value="Dog">Dog</option>
+        <option value="Hamster">Hamster</option>
+        <option value="Other">Other</option>
+        <option value="Zebra">Zebra</option>
+      </select>
+      </div>
+
+      <div>
+        <label for="bio">Biography</label>
+        <textarea id="bio" name="pet_bio"></textarea>
+      </div>
+
+      <div>
+        <label for="owner-email">Owner's Email</label>
+        <input type="email" id="owner-email" name="pet_owner_email">
+      </div>
+
+      <div>
+        <div class="submit">
+          <button type="submit" id="new-pet-submit-button">Create new pet</button>
+        </div>
+
+        <div>
+          <button type="reset">Reset</button>
+        </div>
+      </div>
+      </fieldset>
+  </form>
+  <div class="card">
+  <div class="image1">
+    <img src="https://image.shutterstock.com/image-photo/sunset-over-sand-dunes-desert-260nw-1384187327.jpg" class="image1" alt="desert">
+  </div>
+
+  <div class="header">
+    <div class="image2">
+      <img src="https://p.kindpng.com/picc/s/464-4644512_circle-avatar-picture-png-transparent-png.png" class="imagee" alt="person">
+    </div>
+
+    <div class="cardtext">
+      <h3>Title goes here</h3>
+      <p class="secondary">Secondary text</p>
+      <p class="bodytext">Greyhound divisively hello coldly wonderfully marginally far upon excluding.</p>
+    </div>
+  </div>
+</body>
+
+</html>
